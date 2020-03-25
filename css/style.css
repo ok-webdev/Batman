@@ -117,9 +117,9 @@ body {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
   -webkit-box-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-bottom: 100px;
 }
 
@@ -127,7 +127,7 @@ body {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .tag {
@@ -151,7 +151,7 @@ body {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
   text-decoration: none;
   font-size: 16px;
   line-height: 19px;
@@ -172,7 +172,7 @@ body {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
   text-decoration: none;
   font-size: 16px;
   line-height: 19px;
@@ -187,19 +187,22 @@ body {
   width: 30px;
   height: 30px;
   -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
   margin-left: 15px;
 }
 
 .content {
+  display: -webkit-box;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
   background: #FFFFFF;
   border-radius: 3px;
   color: #000;
   padding: 43px 50px;
 }
-.poster{
+
+.poster {
   display: block;
   margin-top: -80px;
   margin-bottom: 20px;
@@ -222,7 +225,7 @@ body {
   padding-left: 15px;
 }
 
-.actors-list{
+.actors-list {
   margin: 0;
   list-style: none;
   font-size: 16px;
@@ -231,38 +234,51 @@ body {
   text-decoration: underline;
 }
 
-.full-info{
-  flex: 0.97;
+.full-info {
+  -webkit-box-flex: 0.97;
+          flex: 0.97;
 }
-.full-content{
+
+.full-content {
+  display: -webkit-box;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
 }
-.tabs{
+
+.tabs {
+  display: -webkit-box;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
   margin-bottom: 40px;
 }
+
 .tabs-item {
   text-decoration: none;
   font-size: 18px;
   line-height: 21px;
-  color: #000; 
+  color: #000;
 }
-.tabs-item:hover{
+
+.tabs-item:hover {
   color: #FF8F27
 }
-.bookmark-added{
+
+.bookmark-added {
   margin-right: 0;
 }
-.tabs-content{
+
+.tabs-content {
   margin-right: 70px;
 }
-.text{
+
+.text {
   font-size: 16px;
   line-height: 140%;
 }
-.text-title{
+
+.text-title {
   font-weight: 900;
   font-size: 16px;
   line-height: 140%;
