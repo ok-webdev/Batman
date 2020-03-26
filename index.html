@@ -15,7 +15,9 @@
 <body>
   <div class="container">
     <header class="header">
-      <div class="logo">КиноПульс</div>
+      <div class="logo">
+        <a href="index.html" class="logo-link">КиноПульс</a>
+      </div>
       <form action="" class="search">
         <input type="search" class="search-input" placeholder="Фильмы, сериалы, актеры">
         <button type="submit" class="search-button">
@@ -23,8 +25,8 @@
         </button>
       </form>
       <div class="user">
-        <img src="./img/icons/bookmark.svg" alt="В закладки" class="bookmark">
-        <img src="./img/avatar.jpg" alt="Аватар" class="avatar">
+        <a href="#" class="bookmark-link"><img src="./img/icons/bookmark.svg" alt="В закладки" class="bookmark"></a>
+        <a href="#" class="avatar-link"><img src="./img/avatar.jpg" alt="Аватар" class="avatar"></a>        
       </div>
     </header>
     <!-- /.header -->
@@ -44,17 +46,37 @@
           <img src="./img/poster.jpg" alt="Постер" class="poster">
           <button class="button">Буду смотреть</button>
           <h3 class="actors-title">В главных ролях:</h3>
-          <ul class="actors-list">
-            <li class="actorc-list-item">Роберт Паттинсон</li>
-            <li class="actorc-list-item">Зои Кравиц</li>
-            <li class="actorc-list-item">Колин Фаррелл</li>
-            <li class="actorc-list-item">Питер Сарсгаард</li>
-            <li class="actorc-list-item">Пол Дано</li>
-            <li class="actorc-list-item">Энди Серкис</li>
-            <li class="actorc-list-item">Джеффри Райт</li>
-            <li class="actorc-list-item">Джон Туртурро</li>
-            <li class="actorc-list-item">Макс Карвер</li>
-            <li class="actorc-list-item">Кон О’Нилл</li>
+          <ul class="actors-list"> 
+            <li class="actorc-list-item">
+              <a href="https://www.imdb.com/name/nm1500155" class="actors-list-link" target="_blank" title="Откроется в новом окне">Роберт Паттинсон</a>
+            </li>
+            <li class="actorc-list-item">
+              <a href="https://www.imdb.com/name/nm2368789" class="actors-list-link" target="_blank" title="Откроется в новом окне">Зои Кравиц</a>
+            </li>
+            <li class="actorc-list-item">
+              <a href="https://www.imdb.com/name/nm0268199" class="actors-list-link" target="_blank" title="Откроется в новом окне">Колин Фаррелл</a>
+            </li>
+            <li class="actorc-list-item">
+              <a href="https://www.imdb.com/name/nm0765597" class="actors-list-link" target="_blank" title="Откроется в новом окне">Питер Сарсгаард</a>
+            </li>
+            <li class="actorc-list-item">
+              <a href="https://www.imdb.com/name/nm0200452" class="actors-list-link" target="_blank" title="Откроется в новом окне">Пол Дано</a>
+            </li>
+            <li class="actorc-list-item">
+              <a href="https://www.imdb.com/name/nm0785227" class="actors-list-link" target="_blank" title="Откроется в новом окне">Энди Серкис</a>
+            </li>
+            <li class="actorc-list-item">
+              <a href="https://www.imdb.com/name/nm0942482" class="actors-list-link" target="_blank" title="Откроется в новом окне">Джеффри Райт</a>
+            </li>
+            <li class="actorc-list-item">
+              <a href="https://www.imdb.com/name/nm0001806" class="actors-list-link" target="_blank" title="Откроется в новом окне">Джон Туртурро</a>
+            </li>
+            <li class="actorc-list-item">
+              <a href="https://www.imdb.com/name/nm3083571" class="actors-list-link" target="_blank" title="Откроется в новом окне">Макс Карвер</a>
+            </li>
+            <li class="actorc-list-item">
+              <a href="https://www.imdb.com/name/nm0642126/" class="actors-list-link" target="_blank" title="Откроется в новом окне">Кон О’Нилл</a>
+            </li>
           </ul>
         </div>
         <!-- /.short-info -->
@@ -101,7 +123,13 @@
             </div>
             <!-- /.tabs-content -->
             <div class="subscribe">
-              <!-- тут будет форма -->
+              <h3 class="subscribe-title">Подпишитесь на обновления</h3>
+              <form action="#" class="subscribe-form">
+                <input type="email" class="subscribe-input" placeholder="Ваш email">
+                <button class="subscribe-button">
+                  <img src="./img/icons/check.svg" alt="Подписаться" class="check">
+                </button>
+              </form>
               <a href="#" class="banner">
                 <img src="./img/banner.jpg" alt="Банер" class="banner">
               </a>
