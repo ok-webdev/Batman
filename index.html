@@ -9,6 +9,8 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap&subset=cyrillic"
     rel="stylesheet">
+  <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="./css/animate.min.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -26,18 +28,18 @@
       </form>
       <div class="user">
         <a href="#" class="bookmark-link"><img src="./img/icons/bookmark.svg" alt="В закладки" class="bookmark"></a>
-        <a href="#" class="avatar-link"><img src="./img/avatar.jpg" alt="Аватар" class="avatar"></a>        
+        <a href="https://github.com/Bugemot" class="avatar-link" target="_blank" title="Откроется в новом окне"><img src="./img/avatar.jpg" alt="Аватар" class="avatar"></a>        
       </div>
     </header>
     <!-- /.header -->
     <main class="main">
-      <h1 class="title">Бэтмен</h1>
-      <small class="title-en">The Batman</small>
-      <div class="info">
+      <h1 class="title animated fadeIn">Бэтмен</h1>
+      <small class="title-en animated pulse delay-1s">The Batman</small>
+      <div class="info animated fadeInUp delay-2s">
         <div class="movie-info">
           <span class="tag">Фильм</span>
           <span class="country">США, 2021</span>
-          <a href="#" class="play">Смотреть трейлер</a>
+          <a data-fancybox href="https://www.youtube.com/watch?v=Xo8i2ZDMlQg" class="play">Смотреть трейлер</a>
         </div>
         <a href="#" class="more">Подробнее</a>
       </div>
@@ -82,20 +84,20 @@
         <!-- /.short-info -->
         <div class="full-info">
           <nav class="tabs">
-            <a href="#" class="tabs-item">Описание</a>
-            <a href="#" class="tabs-item">Рецензии</a>
-            <a href="#" class="tabs-item">Премьеры</a>
-            <a href="#" class="tabs-item">Актёры</a>
-            <a href="#" class="tabs-item">Награды</a>
-            <a href="#" class="tabs-item">Факты</a>
-            <a href="#" class="tabs-item">Сайты</a>
+            <a href="#about" class="tabs-item tabs-item__active">Описание</a>
+            <a href="#reviews" class="tabs-item">Рецензии</a>
+            <a href="#premiers" class="tabs-item">Премьеры</a>
+            <a href="#actors" class="tabs-item">Актёры</a>
+            <a href="#awards" class="tabs-item">Награды</a>
+            <a href="#facts" class="tabs-item">Факты</a>
+            <a href="#sites" class="tabs-item">Сайты</a>
             <a href="#" class="tabs-item">
               <img src="./img/icons/bookmark-added.svg" alt="В закладки" class="bookmark-added">
             </a>
           </nav>
           <!-- /.tabs -->
           <div class="full-content">
-            <div class="tabs-content">
+            <div class="tabs-content visible" id="about">
               <p class="text">
                 Предстоящий американский супергеройский фильм, основанный на одноимённых комиксах издательства DC
                 Comics. Картина будет выпущена компанией Warner Bros. и будет перезагрузкой всех фильмов о Бэтмене.
@@ -121,6 +123,36 @@
                 Манганьелло сыграет наёмника Слейда Уилсона, который, возможно, станет главным злодеем фильма.
               </p>
             </div>
+            <div class="tabs-content" id="reviews">
+              <div class="text">
+                Тут скоро появятся рецензии.
+              </div>
+            </div>
+            <div class="tabs-content" id="premiers">
+              <div class="text">
+                Тут скоро появятся премьеры.
+              </div>
+            </div>
+            <div class="tabs-content" id="actors">
+              <div class="text">
+                Тут скоро появятся актёры.
+              </div>
+            </div>
+            <div class="tabs-content" id="awards">
+              <div class="text">
+                Тут скоро появятся награды.
+              </div>
+            </div>
+            <div class="tabs-content" id="facts">
+              <div class="text">
+                Тут скоро появятся факты.
+              </div>
+            </div>
+            <div class="tabs-content" id="sites">
+              <div class="text">
+                Тут скоро появятся сайты.
+              </div>
+            </div>
             <!-- /.tabs-content -->
             <div class="subscribe">
               <h3 class="subscribe-title">Подпишитесь на обновления</h3>
@@ -145,6 +177,9 @@
     <!-- /.main -->
   </div>
   <!-- /.container -->
+  <script src="./js/jquery-3.4.1.min.js"></script>
+  <script src="./js/jquery.fancybox.min.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>

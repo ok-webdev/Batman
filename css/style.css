@@ -282,15 +282,20 @@ body {
 .tabs-item:hover {
   color: #FF8F27
 }
-
+.tabs-item__active{
+  color: #FF8F27;
+}
 .bookmark-added {
   margin-right: 0;
 }
 
 .tabs-content {
+  display: none;
   margin-right: 70px;
 }
-
+.visible {
+  display: block;
+}
 .text {
   margin-top: 0;
   font-size: 16px;
