@@ -10,4 +10,4 @@
   jQuery 3.4.1,
   FancyBox
 
-https://bugemot.github.io/Batman/
+https://ok-webdev.github.io/Batman/
