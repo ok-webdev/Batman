@@ -1,14 +1,14 @@
-#Обучающий проект от GloAcademy
+# Обучающий проект от GloAcademy
 
-##Промо-сайт фильма Бэтмен (fake)
+## Промо-сайт фильма Бэтмен (fake)
 
-##Сделан в целях обучения, не предназначен для коммерческого использования.
+## Сделан в целях обучения, не предназначен для коммерческого использования.
 
-##Использованы: 
-  ###HTML5,
-  ###CSS3,
-  ###AnimateIt(css),
-  ###jQuery 3.4.1,
-  ###FancyBox
+## Использованы: 
+  ### + HTML5,
+  ### + CSS3,
+  ### + AnimateIt(css),
+  ### + jQuery 3.4.1,
+  ### + FancyBox
 
-https://ok-webdev.github.io/Batman/
+[GitHub pages](https://ok-webdev.github.io/Batman/)
